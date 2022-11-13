@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Meltdown-PoC", "Meltdown-PoC\Meltdown-PoC.vcxproj", "{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SecretDataProvider", "SecretDataProvider\SecretDataProvider.vcxproj", "{3457949A-177B-44D4-B165-E25AFE967E1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Debug|ARM64.ActiveCfg = Debug|x64
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Debug|ARM64.Build.0 = Debug|x64
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Debug|x64.ActiveCfg = Debug|x64
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Debug|x64.Build.0 = Debug|x64
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Debug|x86.ActiveCfg = Debug|Win32
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Debug|x86.Build.0 = Debug|Win32
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Release|ARM64.ActiveCfg = Release|x64
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Release|ARM64.Build.0 = Release|x64
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Release|x64.ActiveCfg = Release|x64
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Release|x64.Build.0 = Release|x64
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Release|x86.ActiveCfg = Release|Win32
+		{93CC732C-8DCF-4C8A-BE5D-959AF50631F7}.Release|x86.Build.0 = Release|Win32
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|ARM64.Build.0 = Debug|ARM64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|x64.ActiveCfg = Debug|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|x64.Build.0 = Debug|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|x64.Deploy.0 = Debug|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|x86.ActiveCfg = Debug|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|x86.Build.0 = Debug|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Debug|x86.Deploy.0 = Debug|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|ARM64.ActiveCfg = Release|ARM64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|ARM64.Build.0 = Release|ARM64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|ARM64.Deploy.0 = Release|ARM64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|x64.ActiveCfg = Release|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|x64.Build.0 = Release|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|x64.Deploy.0 = Release|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|x86.ActiveCfg = Release|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|x86.Build.0 = Release|x64
+		{3457949A-177B-44D4-B165-E25AFE967E1A}.Release|x86.Deploy.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C77934C-7898-4F1D-B0C8-1014345B6A9B}
+	EndGlobalSection
+EndGlobal
